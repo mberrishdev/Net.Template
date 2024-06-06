@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Mikheil Berishvili",
+  "classifications": [ "Api", "Console" ],
+  "identity": "Net.Template",
+  "name": ".Net Template",
+  "shortName": "nettemplate"
+}
