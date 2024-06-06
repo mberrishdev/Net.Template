@@ -1,0 +1,13 @@
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/bin/Debug/net8.0/Net.Template.Domain.deps.json
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/bin/Debug/net8.0/Net.Template.Domain.dll
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/bin/Debug/net8.0/Net.Template.Domain.pdb
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.csproj.AssemblyReference.cache
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.AssemblyInfoInputs.cache
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.AssemblyInfo.cs
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.csproj.CoreCompileInputs.cache
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.sourcelink.json
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.dll
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/refint/Net.Template.Domain.dll
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/Net.Template.Domain.pdb
+/Users/mberrish/Apps/Net.Template/src/Net.Template.Domain/obj/Debug/net8.0/ref/Net.Template.Domain.dll
