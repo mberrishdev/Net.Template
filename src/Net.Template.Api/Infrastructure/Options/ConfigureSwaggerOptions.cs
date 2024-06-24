@@ -31,8 +31,8 @@ public class ConfigureSwaggerOptions : IConfigureNamedOptions<SwaggerGenOptions>
     {
         var info = new OpenApiInfo
         {
-            Title = $"Net.Template",
-            Description = @"Net.Template",
+            Title = $"Net.Template.Api",
+            Description = @"Net.Template.Api",
             Version = description.ApiVersion.ToString()
         };
 
