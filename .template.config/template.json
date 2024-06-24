@@ -1,8 +1,53 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Mikheil Berishvili",
-  "classifications": [ "Api", "Console" ],
+  "classifications": [
+    "Api",
+    "Console",
+    "Web"
+  ],
   "identity": "Net.Template",
   "name": ".Net Template",
-  "shortName": "nettemplate"
+  "shortName": "nettemplate",
+  "sourceName": "Net.Template",
+  "defaultName": "NetTemplate",
+  "symbols": {
+    "SolutionName": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "NetTemplate"
+    }
+  },
+  "primaryOutputs": [
+    {
+      "path": "src/Net.Template.Api/Net.Template.Api.csproj"
+    },
+    {
+      "path": "src/Net.Template.Application/Net.Template.Application.csproj"
+    },
+    {
+      "path": "src/Net.Template.Domain/Net.Template.Domain.csproj"
+    },
+    {
+      "path": "src/Net.Template.Infrastructure/Net.Template.Infrastructure.csproj"
+    },
+    {
+      "path": "src/Net.Template.Persistence/Net.Template.Persistence.csproj"
+    }
+  ],
+  "postActions": [
+    {
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "F20A1BB4-B7E8-40AA-8BD2-4E1D23C67878",
+      "args": {
+        "targetFiles": "src/**/*.csproj"
+      },
+      "continueOnError": true
+    }
+  ]
 }
