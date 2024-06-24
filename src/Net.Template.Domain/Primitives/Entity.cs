@@ -1,4 +1,6 @@
-﻿namespace Net.Template.Domain.Primitives;
+﻿using System;
+
+namespace Net.Template.Domain.Primitives;
 
 [Serializable]
 public abstract class Entity<TId>

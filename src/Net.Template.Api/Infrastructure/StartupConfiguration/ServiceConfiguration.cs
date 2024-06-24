@@ -1,6 +1,9 @@
-﻿using System.Reflection;
-using FluentValidation.AspNetCore;
+﻿using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Net.Template.Api.Filters;
 using Net.Template.Api.Infrastructure.Options;
 using Net.Template.Application;
@@ -24,7 +27,7 @@ public static class ServiceConfiguration
         services.AddPersistence(configuration);
         services.AddApplication(configuration);
         services.AddInfrastructure(configuration);
-        
+
         #region Health checks
 
         services.AddHealthChecks()

@@ -1,7 +1,9 @@
 ﻿using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Net.Template.Persistence.Database;
 
 namespace Net.Template.Api.Infrastructure.StartupConfiguration;

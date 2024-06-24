@@ -1,4 +1,5 @@
-﻿using Net.Template.Domain.Validators;
+﻿using System.Linq;
+using Net.Template.Domain.Validators;
 
 namespace Net.Template.Domain.Primitives;
 

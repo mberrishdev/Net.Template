@@ -1,4 +1,6 @@
-﻿using Net.Template.Domain.Primitives;
+﻿using System;
+using System.Linq;
+using Net.Template.Domain.Primitives;
 using Net.Template.Domain.Exceptions;
 using FluentValidation.Results;
 

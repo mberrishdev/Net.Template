@@ -1,3 +1,5 @@
+using System;
+using Microsoft.AspNetCore.Builder;
 using Net.Template.Api.Infrastructure.StartupConfiguration;
 using Serilog;
 

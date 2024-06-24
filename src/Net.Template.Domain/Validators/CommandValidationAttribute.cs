@@ -1,4 +1,6 @@
-﻿namespace Net.Template.Domain.Validators;
+﻿using System;
+
+namespace Net.Template.Domain.Validators;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class CommandValidationAttribute : Attribute
