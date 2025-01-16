@@ -1,16 +1,14 @@
-﻿using System;
-
-namespace Net.Template.Domain.Validators;
+﻿namespace Net.Template.Domain.Validators;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class CommandValidationAttribute : Attribute
 {
-    public required Type ValidorType { get; set; }
-    public required string ValidorName { get; set; }
+    public required Type ValidatorType { get; set; }
+    public required string ValidatorName { get; set; }
 
-    public CommandValidationAttribute(Type validatoType)
+    public CommandValidationAttribute(Type validatorType)
     {
-        ValidorType = validatoType;
-        ValidorName = validatoType.Name;
+        ValidatorType = validatorType;
+        ValidatorName = validatorType.Name;
     }
 }

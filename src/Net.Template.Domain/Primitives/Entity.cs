@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace Net.Template.Domain.Primitives;
+﻿namespace Net.Template.Domain.Primitives;
 
 [Serializable]
-public abstract class Entity<TId>
+public abstract class Entity<TKey> where TKey : IComparable
 {
-    public virtual TId Id { get; set; }
+    public virtual TKey Id { get; protected set; }
 }

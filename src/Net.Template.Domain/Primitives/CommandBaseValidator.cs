@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Net.Template.Domain.Validators;
+﻿using Net.Template.Domain.Validators;
 
 namespace Net.Template.Domain.Primitives;
 
@@ -7,12 +6,12 @@ public class CommandBaseValidator : ICommandBase
 {
     public void Validate()
     {
-        if (this.GetType()
+        if (GetType()
                 .GetCustomAttributes(typeof(CommandValidationAttribute), true)
                 .FirstOrDefault() is not CommandValidationAttribute commandValidationAttribute)
             return;
 
-        var type = commandValidationAttribute.ValidorType;
+        var type = commandValidationAttribute.ValidatorType;
         CommandValidator.Validate(type, this);
     }
 }

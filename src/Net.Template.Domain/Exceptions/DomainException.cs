@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Net.Template.Domain.Exceptions;
+﻿namespace Net.Template.Domain.Exceptions;
 
 public class DomainException : Exception
 {
