@@ -29,9 +29,9 @@ dotnet new list
 
 You’ll see something like:
 ```pgsql
-Template Name                Short Name      Language  Tags
---------------------------  --------------  --------  --------------------
-MB.Template                 nettemplate      [C#]      CleanArchitecture/WebAPI
+Template Name                                             Short Name      Language  Tags
+------------------------------------------------------- --------------  --------  --------------------
+MB.Template - Celan Architexture for .NET                 mbtemplate      [C#]      webAPI/Solution/CleanArchitecture
 
 ```
 ###  3. Create a New Project
@@ -39,7 +39,7 @@ MB.Template                 nettemplate      [C#]      CleanArchitecture/WebAPI
 Use the short name nettemplate to generate a new solution:
 
 ```bash
-dotnet new nettemplate -n YourProjectName -o YourProjectName
+dotnet new mbtemplate -n YourProjectName -o YourProjectName
 cd YourProjectName
 ```
 This will create a clean architecture solution with your specified name.
