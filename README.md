@@ -41,6 +41,7 @@ Use the short name nettemplate to generate a new solution:
 ```bash
 dotnet new mbtemplate -n YourProjectName -o YourProjectName
 cd YourProjectName
+rm -rf .git
 ```
 This will create a clean architecture solution with your specified name.
 
