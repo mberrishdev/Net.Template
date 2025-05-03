@@ -2,46 +2,35 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Mikheil Berishvili",
   "classifications": [
-    "Api",
-    "Console",
-    "Web"
+    "WebAPI",
+    "Solution",
+    "CleanArchitecture"
   ],
-  "identity": "Net.Template",
-  "name": ".Net Template",
-  "shortName": "nettemplate",
+  "identity": "MB.Template.CleanArchitecture",
+  "name": "MB.Template – Clean Architecture for .NET",
+  "shortName": "mbtemplate",
   "sourceName": "Net.Template",
-  "defaultName": "NetTemplate",
+  "defaultName": "MB.TemplateApp",
   "symbols": {
     "SolutionName": {
       "type": "parameter",
       "datatype": "string",
-      "defaultValue": "NetTemplate"
+      "defaultValue": "MB.TemplateApp",
+      "replaces": "Net.Template"
     }
   },
   "primaryOutputs": [
-    {
-      "path": "src/Net.Template.Api/Net.Template.Api.csproj"
-    },
-    {
-      "path": "src/Net.Template.Application/Net.Template.Application.csproj"
-    },
-    {
-      "path": "src/Net.Template.Domain/Net.Template.Domain.csproj"
-    },
-    {
-      "path": "src/Net.Template.Infrastructure/Net.Template.Infrastructure.csproj"
-    },
-    {
-      "path": "src/Net.Template.Persistence/Net.Template.Persistence.csproj"
-    }
+    { "path": "src/Net.Template.Api/Net.Template.Api.csproj" },
+    { "path": "src/Net.Template.Application/Net.Template.Application.csproj" },
+    { "path": "src/Net.Template.Domain/Net.Template.Domain.csproj" },
+    { "path": "src/Net.Template.Infrastructure/Net.Template.Infrastructure.csproj" },
+    { "path": "src/Net.Template.Persistence/Net.Template.Persistence.csproj" }
   ],
   "postActions": [
     {
       "description": "Restore NuGet packages required by this project.",
       "manualInstructions": [
-        {
-          "text": "Run 'dotnet restore'"
-        }
+        { "text": "Run 'dotnet restore'" }
       ],
       "actionId": "F20A1BB4-B7E8-40AA-8BD2-4E1D23C67878",
       "args": {
