@@ -6,11 +6,11 @@
     "Solution",
     "CleanArchitecture"
   ],
-  "identity": "MB.Template.CleanArchitecture",
+  "identity": "Net.Template",
   "name": "MB.Template – Clean Architecture for .NET",
   "shortName": "mbtemplate",
   "sourceName": "Net.Template",
-  "defaultName": "MB.TemplateApp",
+  "defaultName": "NetTemplate",
   "symbols": {
     "SolutionName": {
       "type": "parameter",
