@@ -15,8 +15,7 @@
     "SolutionName": {
       "type": "parameter",
       "datatype": "string",
-      "defaultValue": "MB.TemplateApp",
-      "replaces": "Net.Template"
+      "defaultValue": "NetTemplate"
     }
   },
   "primaryOutputs": [
