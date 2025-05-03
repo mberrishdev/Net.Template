@@ -11,7 +11,8 @@ This template includes all key layers to help you start building scalable applic
 ### 1. Clone the Template Repository
 
 ```bash
-git clone https://github.com/mberrishdev/Net.Template.git mb.template && mb.template
+git clone https://github.com/mberrishdev/Net.Template.git mb.template
+cd mb.template
 ```
 
 ### 2. Install the Template Locally
